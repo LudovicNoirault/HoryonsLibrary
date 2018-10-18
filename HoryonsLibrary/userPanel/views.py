@@ -3,15 +3,13 @@ from django.shortcuts import render
 
 # Create your views here.
 
-""" handle the connection fo the user """
-
 
 def login(request):
+    """ handle the connection fo the user """
     return render(request, 'userPaner/login.html')
 
 
-"""Handle the registration of the user"""
-
-
 def register(request):
+    """Handle the registration of the user"""
+
     return render(request, 'userPaner/register.html')

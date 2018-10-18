@@ -1,8 +1,9 @@
+""" Imports """
 from django.shortcuts import render
-from django.template import RequestContext
 
 # Create your views here.
 
 
 def home(request):
+    """ function for home """
     return render(request, 'home/home.html')
